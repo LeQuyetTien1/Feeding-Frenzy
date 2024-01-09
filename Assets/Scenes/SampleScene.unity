@@ -217,13 +217,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1010370935}
   - component: {fileID: 1010370934}
+  - component: {fileID: 1010370937}
+  - component: {fileID: 1010370936}
   m_Layer: 0
   m_Name: EnemySpawn-Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1010370934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,10 +238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeSpawn: 2
+  timeSpawn: 1.2
   maxHeight: 4.22
   minHeight: -4.7
-  enemyFish: {fileID: 5031042939490971750, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
+  enemyFish: {fileID: 3473344969858680359, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
   angle: 0
 --- !u!4 &1010370935
 Transform:
@@ -249,13 +251,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010370933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.12, y: -0, z: 0}
+  m_LocalPosition: {x: 9.33, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1010370936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010370933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSpawn: 8
+  maxHeight: 4.22
+  minHeight: -4.7
+  enemyFish: {fileID: 6271950765028610941, guid: f693d9ef50e505c489f89156ef12d3ce, type: 3}
+  angle: 0
+--- !u!114 &1010370937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010370933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSpawn: 4
+  maxHeight: 4.22
+  minHeight: -4.7
+  enemyFish: {fileID: 3095150308705789897, guid: c25c6da0f454e7c4cb58361531959d8f, type: 3}
+  angle: 0
 --- !u!1 &1679897994
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,13 +302,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1679897996}
   - component: {fileID: 1679897995}
+  - component: {fileID: 1679897998}
+  - component: {fileID: 1679897997}
   m_Layer: 0
   m_Name: EnemySpawn-Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1679897995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,10 +323,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeSpawn: 2
+  timeSpawn: 1.2
   maxHeight: 4.22
   minHeight: -4.7
-  enemyFish: {fileID: 5031042939490971750, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
+  enemyFish: {fileID: 3473344969858680359, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
   angle: 180
 --- !u!4 &1679897996
 Transform:
@@ -298,13 +336,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679897994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.95, y: 0, z: 0}
+  m_LocalPosition: {x: -10.41, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1679897997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679897994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSpawn: 8
+  maxHeight: 4.22
+  minHeight: -4.7
+  enemyFish: {fileID: 6271950765028610941, guid: f693d9ef50e505c489f89156ef12d3ce, type: 3}
+  angle: 180
+--- !u!114 &1679897998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679897994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e24efea343674086df0e5a8367cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSpawn: 4
+  maxHeight: 4.22
+  minHeight: -4.7
+  enemyFish: {fileID: 3095150308705789897, guid: c25c6da0f454e7c4cb58361531959d8f, type: 3}
+  angle: 180
 --- !u!1 &1982400010
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,8 +454,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982400010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.41, z: 0}
-  m_LocalScale: {x: 2.4849, y: 2.4849, z: 2.4849}
+  m_LocalPosition: {x: -0.04, y: -0.3, z: 0}
+  m_LocalScale: {x: 2.2605035, y: 2.2605035, z: 2.2605035}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -421,6 +493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69d6358c0bdcd0499a04d476bed156d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  pointLv2: 10
+  pointLv3: 25
 --- !u!212 &1996250146
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -482,7 +557,7 @@ Transform:
   m_GameObject: {fileID: 1996250144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.5, y: -1.05, z: 0}
-  m_LocalScale: {x: 1.1645533, y: 1.1645533, z: 1.1645533}
+  m_LocalScale: {x: 0.79079175, y: 0.79079175, z: 0.79079175}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -525,60 +600,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1001 &5031042938008618090
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5031042939490971750, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_Name
-      value: SmallFish
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0093184
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031042939490971771, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b2535c3b9f1c3e4c96b0b5a4ce118fa, type: 3}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db8cea3914a886d468a5572933b498fb
+guid: 08d13244e024fbf4a8c6d0c76c64f76e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,22 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Feeding Frenzy - Minnow_0
+      name: PC Computer - Feeding Frenzy - John Dory_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 57
-        width: 63
-        height: 36
+        x: 104
+        y: 367
+        width: 174
+        height: 172
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66223e9d5cb22854ea1d186b088e7781
-      internalID: 342031821
+      spriteID: 567cf38c080e6b346a441f6d1f7b4696
+      internalID: 212360830
       vertices: []
       indices: 
       edges: []
@@ -148,8 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - Feeding Frenzy - Minnow_0: 342031821
-      PC Computer - Feeding Frenzy - Minnow_1: 1802662908
+      PC Computer - Feeding Frenzy - John Dory_0: 212360830
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

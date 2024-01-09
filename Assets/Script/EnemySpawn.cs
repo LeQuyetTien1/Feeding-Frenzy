@@ -5,15 +5,15 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     [SerializeField] private float timeSpawn;
-    [SerializeField] private float maxHeight;
-    [SerializeField] private float minHeight;
+    [SerializeField] private float maxHeight= 4.22f;
+    [SerializeField] private float minHeight= -4.7f;
     [SerializeField] GameObject enemyFish;
     [SerializeField] private float angle;
     private float time=0;
     // Start is called before the first frame update
     void Start()
     {
-        Spawn();
+        
     }
 
     // Update is called once per frame

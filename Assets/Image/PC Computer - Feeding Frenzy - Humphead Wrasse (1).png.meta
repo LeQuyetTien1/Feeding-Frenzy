@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db8cea3914a886d468a5572933b498fb
+guid: 6d8fdd0c15289dc4795a1046c3c8fbfb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Feeding Frenzy - Minnow_0
+      name: PC Computer - Feeding Frenzy - Humphead Wrasse (1)_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 57
-        width: 63
-        height: 36
+        x: 115
+        y: 299
+        width: 269
+        height: 134
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66223e9d5cb22854ea1d186b088e7781
-      internalID: 342031821
+      spriteID: 06c1169393cd4ad46a9176573d518121
+      internalID: -1986215276
       vertices: []
       indices: 
       edges: []
@@ -148,8 +148,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - Feeding Frenzy - Minnow_0: 342031821
-      PC Computer - Feeding Frenzy - Minnow_1: 1802662908
+      PC Computer - Feeding Frenzy - Humphead Wrasse (1)_0: -1011789657
+      PC Computer - Feeding Frenzy - Humphead Wrasse (1)_1: -1986215276
+      PC Computer - Feeding Frenzy - Humphead Wrasse (1)_2: -1934792701
+      PC Computer - Feeding Frenzy - Humphead Wrasse (1)_3: 2017226590
+      PC Computer - Feeding Frenzy - Humphead Wrasse (1)_4: -1692264061
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

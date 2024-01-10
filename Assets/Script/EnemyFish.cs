@@ -26,7 +26,7 @@ public class EnemyFish : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var main = collision.gameObject.GetComponent<Main>();
-        if(main!=null && main.score >= lifePoint)
+        if(main!=null && main.mainPoint >= lifePoint)
         {
             smallFishSpeed = 3;
             var scale = transform.localScale;
@@ -37,14 +37,18 @@ public class EnemyFish : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var main = collision.gameObject.GetComponent<Main>();
-        if(main!=null && main.score >= lifePoint)
+        if(main!=null && main.mainPoint >= lifePoint)
         {
             Destroy(gameObject);
-            main.score += rewardPoint;
+            main.mainPoint += rewardPoint;
         }
         else
         {
             Destroy(collision.gameObject);
         }
+    }
+    public void StopMoving()
+    {
+        direction = Vector3.zero;
     }
 }

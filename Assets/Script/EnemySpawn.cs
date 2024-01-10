@@ -33,4 +33,8 @@ public class EnemySpawn : MonoBehaviour
     {
         Instantiate(enemyFish, new Vector3(transform.position.x, Random.Range(minHeight, maxHeight), 0), Quaternion.Euler(0,angle,0));
     }
+    public void StopSpawn()
+    {
+        gameObject.SetActive(false);
+    }
 }

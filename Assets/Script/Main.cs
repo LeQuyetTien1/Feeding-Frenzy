@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Main : MonoBehaviour
 {
-    public int score;
+    public int mainPoint;
     public int pointLv2;
     public int pointLv3;
     private Vector3 scaleLv2;
-    private Vector3 scaleLv3; 
+    private Vector3 scaleLv3;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,7 @@ public class Main : MonoBehaviour
     [ContextMenu("Test")]
     private void UpGrade(int pointLv, Vector3 scaleLv)
     {
-        if (score == pointLv)
+        if (mainPoint == pointLv)
         {
             transform.localScale = scaleLv;
         }

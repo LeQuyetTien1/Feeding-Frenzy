@@ -5,19 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     public void PlayNewGame()
     {
         SceneManager.LoadScene("Game Play");
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }

@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     [SerializeField] private float timeSpawn;
-    [SerializeField] private float maxHeight= 4.22f;
-    [SerializeField] private float minHeight= -4.7f;
+    private float maxHeight= 4.22f;
+    private float minHeight= -4.7f;
     [SerializeField] GameObject enemyFish;
     [SerializeField] private float angle;
     private float time=0;

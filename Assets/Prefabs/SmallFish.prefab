@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3473344969858680357}
   - component: {fileID: 3473344969858680358}
   - component: {fileID: 1858012644368162600}
-  m_Layer: 0
+  - component: {fileID: 2698334164533855281}
+  m_Layer: 6
   m_Name: SmallFish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,6 +142,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8922ddcfb6a230748959623efd4658f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallFishSpeed: 2
   lifePoint: 0
   rewardPoint: 1
+  smallFishSpeed: 2
+--- !u!50 &2698334164533855281
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473344969858680359}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

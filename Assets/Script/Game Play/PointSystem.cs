@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PointSystem : MonoBehaviour
 {
     public int lifePoint;
     public int rewardPoint;
+    /*public Text lifePointText;*/
     protected void OnCollisionEnter2D(Collision2D collision)
     {
         var enemy = collision.gameObject.GetComponent<PointSystem>();

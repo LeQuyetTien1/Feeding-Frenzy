@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyFish : PointSystem
 {
-    [SerializeField] private float smallFishSpeed = 2;
+    [SerializeField] private float speed;
     private Vector3 direction = Vector3.left;
     /*[SerializeField] private int lifePoint;
     [SerializeField] private int rewardPoint;*/
@@ -17,7 +17,7 @@ public class EnemyFish : PointSystem
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(direction * smallFishSpeed * Time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime);
         if (transform.position.x > 11 || transform.position.x < -12)
         {
             Destroy(gameObject);
@@ -28,7 +28,7 @@ public class EnemyFish : PointSystem
         var main = collision.gameObject.GetComponent<Main>();
         if(main!=null && main.lifePoint >= lifePoint)
         {
-            smallFishSpeed = 3;
+            speed = 3;
             var scale = transform.localScale;
             transform.localScale = new Vector3(-scale.x, scale.y, scale.z);
             direction *= -1;

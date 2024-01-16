@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9aef60633c9bddd4fb47057890c8cd32
+guid: 586e87544da7d4746895e0f9871ed352
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,22 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Feeding Frenzy - Star Fish_0
+      name: PC Computer - Feeding Frenzy - Lost City_0
       rect:
         serializedVersion: 2
         x: 2
-        y: 159
-        width: 794
-        height: 595
+        y: 184
+        width: 796
+        height: 593
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a501a20f189164740a604aa96ade8906
-      internalID: 597125069
+      spriteID: f93594fbc17c65946a659ca21f3fcf1e
+      internalID: -570195376
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - Feeding Frenzy - Star Fish_0: 597125069
+      PC Computer - Feeding Frenzy - Lost City_0: -570195376
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

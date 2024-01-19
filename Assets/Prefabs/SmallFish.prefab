@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3473344969858680358}
   - component: {fileID: 1858012644368162600}
   - component: {fileID: 2698334164533855281}
+  - component: {fileID: 4928655493261414951}
   m_Layer: 6
   m_Name: SmallFish
   m_TagString: Enemy
@@ -144,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifePoint: 0
   rewardPoint: 1
-  smallFishSpeed: 2
+  speed: 2
 --- !u!50 &2698334164533855281
 Rigidbody2D:
   serializedVersion: 4
@@ -166,3 +167,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &4928655493261414951
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473344969858680359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b908a8e1562510b41a630b575e056768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

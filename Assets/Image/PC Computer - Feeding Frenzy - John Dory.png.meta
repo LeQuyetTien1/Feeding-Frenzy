@@ -117,11 +117,32 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Feeding Frenzy - John Dory_0
+      name: Swim1
       rect:
         serializedVersion: 2
         x: 104
-        y: 367
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567cf38c080e6b346a441f6d1f7b4696
+      internalID: 212360830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 185
         width: 174
         height: 172
       alignment: 0
@@ -131,8 +152,281 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 567cf38c080e6b346a441f6d1f7b4696
-      internalID: 212360830
+      spriteID: e70ecffe216f6e749a76dd95bbfa9355
+      internalID: 406606290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a997859679b3b4891a553d4301e0fd
+      internalID: 11033509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim4
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c8239fafbbfa943afe4c9722c7be0c
+      internalID: -860623039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim5
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b14a52b49db204d9c181de3c8c1696
+      internalID: -16483772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875bc0fef316914a89357384edbd502
+      internalID: 183505957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim7
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488097c7e3445c94caf2fec00710f2f2
+      internalID: 1019880358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim8
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2aa8d45b01806489695dc3b8f4c886
+      internalID: 283499283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim9
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f5edd7d3106e54abca2f623702afd2
+      internalID: -586953335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim10
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386dd5edb4f577d488b3e51be596137e
+      internalID: -1057003206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim11
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a245bf3c40014998ce6e31c8534e4
+      internalID: 626670407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim12
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779455f56a47d0c4abc62b676800b90b
+      internalID: 1520722129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim13
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f50eb1930ffd74f9f45e46bc316ba3
+      internalID: 227626622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim14
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411cebfead641b84b85a8c7bb7e8febe
+      internalID: -808280430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim15
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 185
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9302c5d0caec641840583bb47c2c96
+      internalID: 536237643
       vertices: []
       indices: 
       edges: []
@@ -148,7 +442,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - Feeding Frenzy - John Dory_0: 212360830
+      Swim1: 212360830
+      Swim10: -1057003206
+      Swim11: 626670407
+      Swim12: 1520722129
+      Swim13: 227626622
+      Swim14: -808280430
+      Swim15: 536237643
+      Swim2: 406606290
+      Swim3: 11033509
+      Swim4: -860623039
+      Swim5: -16483772
+      Swim6: 183505957
+      Swim7: 1019880358
+      Swim8: 283499283
+      Swim9: -586953335
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

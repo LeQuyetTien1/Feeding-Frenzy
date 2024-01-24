@@ -25,6 +25,7 @@ public class GameLogic : MonoBehaviour
         onGameWin.AddListener(enemySpawnRight.StopSpawn);
         onGameWin.AddListener(ShowGameWin);
         /*onGameOver.AddListener(enemyFish.StopMoving);*/
+        Shop.previousScene = "Level 1";
     }
 
     // Update is called once per frame
@@ -34,7 +35,7 @@ public class GameLogic : MonoBehaviour
         {
             onGameOver.Invoke();
         }
-        if (mainFish.lifePoint >= 50)
+        if (mainFish.lifePoint >= mainFish.winPoint)
         {
             onGameWin.Invoke();
         }

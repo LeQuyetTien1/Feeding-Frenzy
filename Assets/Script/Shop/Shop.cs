@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Shop : MonoBehaviour
 {
+    public static string previousScene;
     public void BacktoMenu()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene(previousScene);
     }
 }

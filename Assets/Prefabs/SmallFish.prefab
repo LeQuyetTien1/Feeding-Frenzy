@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifePoint: 0
   rewardPoint: 1
+  gold: 1
   speed: 2
 --- !u!50 &2698334164533855281
 Rigidbody2D:

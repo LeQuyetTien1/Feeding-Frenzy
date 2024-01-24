@@ -7,6 +7,7 @@ public class GamePlayUI : MonoBehaviour
 {
     public PointSystem pointSystem;
     public Text lifePointText;
+    public Text goldText;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class GamePlayUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifePointText.text = pointSystem.lifePoint.ToString();
+        lifePointText.text = "Score: "+ pointSystem.lifePoint.ToString();
+        goldText.text="x "+pointSystem.gold.ToString();
     }
 }

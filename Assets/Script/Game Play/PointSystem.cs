@@ -7,7 +7,7 @@ public class PointSystem : MonoBehaviour
 {
     public int lifePoint;
     public int rewardPoint;
-    /*public Text lifePointText;*/
+    public int gold;
     protected void OnCollisionEnter2D(Collision2D collision)
     {
         var enemy = collision.gameObject.GetComponent<PointSystem>();
@@ -17,7 +17,8 @@ public class PointSystem : MonoBehaviour
             if (enemy.gameObject.layer == 3)
             {
                 enemy.lifePoint += rewardPoint;
-            }         
+                enemy.gold += gold;
+            }
         }
         else
         {

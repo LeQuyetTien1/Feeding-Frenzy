@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Main : PointSystem
 {
@@ -10,7 +11,8 @@ public class Main : PointSystem
     public int pointLv3;
     public Vector3 scaleLv2;
     public Vector3 scaleLv3;
-    
+    public int winPoint;
+    public Image greenBar;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,7 @@ public class Main : PointSystem
         }
         UpGrade(pointLv2, scaleLv2);
         UpGrade(pointLv3, scaleLv3);
+        greenBar.fillAmount = (float) lifePoint / winPoint;
     }
     private void UpGrade(int pointLv, Vector3 scaleLv)
     {

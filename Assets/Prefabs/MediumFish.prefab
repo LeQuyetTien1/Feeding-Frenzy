@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4446171024853928444}
   - component: {fileID: -7995176148494987736}
   - component: {fileID: 8163058749747060812}
+  - component: {fileID: 4492118961792088241}
   m_Layer: 7
   m_Name: MediumFish
   m_TagString: Enemy
@@ -145,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifePoint: 10
   rewardPoint: 2
-  gold: 3
+  gold: 5
   speed: 1.6
 --- !u!50 &-7995176148494987736
 Rigidbody2D:
@@ -189,3 +190,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &4492118961792088241
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3095150308705789897}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.61, y: -0.1}
+  serializedVersion: 2
+  m_Radius: 0.28

@@ -37,6 +37,7 @@ public class GameLogic : MonoBehaviour
         }
         if (mainFish.lifePoint >= mainFish.winPoint)
         {
+            mainFish.greenBar.fillAmount = 1;
             onGameWin.Invoke();
         }
     }

@@ -8,7 +8,13 @@ public class PointSystem : MonoBehaviour
     public int lifePoint;
     public int rewardPoint;
     public int gold;
-    protected void OnCollisionEnter2D(Collision2D collision)
+    public Animator animator;
+    protected float time=0;
+    private void Update()
+    {
+        
+    }
+    protected void OnCollisionEnter2D(Collision2D collision) //Body
     {
         var enemy = collision.gameObject.GetComponent<PointSystem>();
         if (enemy != null && enemy.lifePoint >= lifePoint)
@@ -18,11 +24,14 @@ public class PointSystem : MonoBehaviour
             {
                 enemy.lifePoint += rewardPoint;
                 enemy.gold += gold;
+                
             }
         }
         else
         {
             Destroy(collision.gameObject);
+            time = 0;
+            animator.SetBool("isEat", true);           
         }
     }
 }

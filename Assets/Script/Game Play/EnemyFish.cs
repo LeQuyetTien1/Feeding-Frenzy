@@ -13,8 +13,14 @@ public class EnemyFish : PointSystem
         {
             Destroy(gameObject);
         }
+
+        time += Time.deltaTime;
+        if (time >= 0.5)
+        {
+            animator.SetBool("isEat", false);
+        }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //Radar
     {
         var main = collision.gameObject.GetComponent<Main>();
         if (main != null && main.lifePoint >= lifePoint)

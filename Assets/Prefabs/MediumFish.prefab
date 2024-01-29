@@ -147,6 +147,7 @@ MonoBehaviour:
   lifePoint: 10
   rewardPoint: 2
   gold: 5
+  animator: {fileID: 8163058749747060812}
   speed: 1.6
 --- !u!50 &-7995176148494987736
 Rigidbody2D:

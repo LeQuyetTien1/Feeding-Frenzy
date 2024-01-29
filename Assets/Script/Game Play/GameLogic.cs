@@ -7,7 +7,6 @@ public class GameLogic : MonoBehaviour
 {
     public EnemySpawn enemySpawnLeft;
     public EnemySpawn enemySpawnRight;
-    /*public EnemyFish enemyFish;*/
     public GameObject gameOver;
     public GameObject gameWin;
     public Main mainFish;
@@ -19,12 +18,10 @@ public class GameLogic : MonoBehaviour
         onGameOver.AddListener(enemySpawnLeft.StopSpawn);
         onGameOver.AddListener(enemySpawnRight.StopSpawn);
         onGameOver.AddListener(ShowGameOver);
-        /*onGameOver.AddListener(enemyFish.StopMoving);*/
 
         onGameWin.AddListener(enemySpawnLeft.StopSpawn);
         onGameWin.AddListener(enemySpawnRight.StopSpawn);
         onGameWin.AddListener(ShowGameWin);
-        /*onGameOver.AddListener(enemyFish.StopMoving);*/
         Shop.previousScene = "Level 1";
     }
 
@@ -48,6 +45,6 @@ public class GameLogic : MonoBehaviour
     public void ShowGameWin()
     {
         gameWin.SetActive(true);
-        mainFish.gameObject.SetActive(false);
+        mainFish.isWinStatus = true;
     }
 }

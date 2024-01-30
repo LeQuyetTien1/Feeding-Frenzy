@@ -9,9 +9,9 @@ public class GameWin : MonoBehaviour
     {
         
     }
-    public void NexLevel()
+    public void PlayAgain()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void GoShop()
     {

@@ -16,6 +16,7 @@ public class PointSystem : MonoBehaviour
     }
     protected void OnCollisionEnter2D(Collision2D collision) //Body
     {
+        /*if(collision.gameObject.layer==9)*/
         var enemy = collision.gameObject.GetComponent<PointSystem>();
         if (enemy != null && enemy.lifePoint >= lifePoint)
         {

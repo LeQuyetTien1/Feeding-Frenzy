@@ -49,6 +49,8 @@ public class Main : PointSystem
         {
             animator.SetBool("isEat", false);
         }
+
+        /*Shop.gold = gold;*/
     }
     private void UpGrade(int pointLv, Vector3 scaleLv)
     {

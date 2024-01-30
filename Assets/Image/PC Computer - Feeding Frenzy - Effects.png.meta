@@ -125,7 +125,7 @@ TextureImporter:
         width: 58
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,6 +133,27 @@ TextureImporter:
       bones: []
       spriteID: 31a033be83e2db04f87148ee0033fa52
       internalID: -941407844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Feeding Frenzy - Effects_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 228
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197ed1310b3cd046b3c33d85d8e8a9a
+      internalID: -298803483
       vertices: []
       indices: 
       edges: []
@@ -149,6 +170,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       PC Computer - Feeding Frenzy - Effects_0: -941407844
+      PC Computer - Feeding Frenzy - Effects_1: -298803483
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,9 +8,15 @@ public class Choose : MonoBehaviour
     public Button chooseButton;
     public Image chooseImage;
     public Text chooseText;
+
+    private void Start()
+    {
+        chooseImage.color = Color.gray;
+        chooseButton.enabled = false;
+    }
     public void OnClickChoose()
     {
-        chooseText.text = "Chose";
+        chooseText.text = "Selected";
         chooseImage.color = Color.gray;
         chooseButton.enabled = false;
     }

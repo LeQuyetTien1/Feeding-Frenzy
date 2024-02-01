@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyFish : PointSystem
 {
     public float speed;
-    protected Vector3 direction = Vector3.left;
+    public Vector3 direction = Vector3.left;
     void Update()
     {
         transform.Translate(direction * speed * Time.deltaTime);
@@ -20,7 +20,7 @@ public class EnemyFish : PointSystem
             animator.SetBool("isEat", false);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision) //Radar
+    /*private void OnTriggerEnter2D(Collider2D collision) //Radar
     {
         var main = collision.gameObject.GetComponent<Main>();
         if (main != null && main.lifePoint >= lifePoint)
@@ -30,5 +30,5 @@ public class EnemyFish : PointSystem
             transform.localScale = new Vector3(-scale.x, scale.y, scale.z);
             direction *= -1;
         }
-    }
+    }*/
 }

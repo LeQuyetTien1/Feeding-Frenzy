@@ -9,30 +9,33 @@ public class PointSystem : MonoBehaviour
     public int rewardPoint;
     public int gold;
     public Animator animator;
-    protected float time=0;
+    public float time = 0;
     private void Update()
     {
         
     }
-    protected void OnCollisionEnter2D(Collision2D collision) //Body
+    /*protected void OnTriggerEnter2D(Collider2D collision) //Body
     {
-        /*if(collision.gameObject.layer==9)*/
-        var enemy = collision.gameObject.GetComponent<PointSystem>();
-        if (enemy != null && enemy.lifePoint >= lifePoint)
+        if (collision.gameObject.layer == 9)
         {
-            Destroy(gameObject);
-            if (enemy.gameObject.layer == 3)
+            Debug.Log("Eat");
+            var enemy = collision.gameObject.GetComponent<PointSystem>();
+            if (enemy != null && enemy.lifePoint >= lifePoint)
             {
-                enemy.lifePoint += rewardPoint;
-                enemy.gold += gold;
-                
+                Destroy(gameObject);
+                if (enemy.gameObject.layer == 3)
+                {
+                    enemy.lifePoint += rewardPoint;
+                    enemy.gold += gold;
+
+                }
             }
-        }
-        else
-        {
-            Destroy(collision.gameObject);
-            time = 0;
-            animator.SetBool("isEat", true);           
-        }
-    }
+            else
+            {
+                Destroy(collision.gameObject);
+                time = 0;
+                animator.SetBool("isEat", true);
+            }
+        }      
+    }*/
 }

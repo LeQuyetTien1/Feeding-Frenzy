@@ -104,7 +104,8 @@ MonoBehaviour:
   lifePoint: 0
   rewardPoint: 0
   gold: 0
-  animator: {fileID: 0}
+  animator: {fileID: 3262477744330986131}
+  time: 0
   pointLv2: 10
   pointLv3: 25
   scaleLv2: {x: 1.18, y: 1.18, z: 1.18}
@@ -143,7 +144,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -180,6 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5849503950313190883}
   - component: {fileID: 5405311950944150113}
+  - component: {fileID: 2410189461775834943}
   m_Layer: 9
   m_Name: Mouth
   m_TagString: Untagged
@@ -218,3 +220,17 @@ CircleCollider2D:
   m_Offset: {x: 0.4, y: 0}
   serializedVersion: 2
   m_Radius: 0.2
+--- !u!114 &2410189461775834943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694778639223018878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0754cda2c6bc5d418b8e9a58012f105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fish: {fileID: 3262477744330986132}
+  animator: {fileID: 3262477744330986131}

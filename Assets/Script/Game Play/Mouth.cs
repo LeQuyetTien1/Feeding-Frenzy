@@ -20,6 +20,7 @@ public class Mouth : MonoBehaviour
     {
         if (collision.gameObject.layer != 10)
         {
+            fish.EatAnimation();
             var enemy = collision.gameObject.GetComponent<PointSystem>();
             if (enemy != null && enemy.lifePoint <= fish.lifePoint)
             {
@@ -28,8 +29,7 @@ public class Mouth : MonoBehaviour
                 {
                     fish.lifePoint += enemy.rewardPoint;
                     fish.gold += enemy.gold;
-                    fish.time = 0;
-                    /*fish.animator.SetBool("isEat", true);*/
+                   
                 }
             }
         }

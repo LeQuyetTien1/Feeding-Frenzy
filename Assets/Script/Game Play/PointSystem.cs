@@ -14,6 +14,11 @@ public class PointSystem : MonoBehaviour
     {
         
     }
+    public void EatAnimation()
+    {
+        time = 0;
+        animator.SetBool("isEat", true);
+    }
     /*protected void OnTriggerEnter2D(Collider2D collision) //Body
     {
         if (collision.gameObject.layer == 9)

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Main : PointSystem
 {
-    /*public int mainPoint;*/
     public int pointLv2;
     public int pointLv3;
     public Vector3 scaleLv2;
@@ -50,7 +49,7 @@ public class Main : PointSystem
             animator.SetBool("isEat", false);
         }
 
-        /*Shop.gold = gold;*/
+        Shop.gold = gold;
     }
     private void UpGrade(int pointLv, Vector3 scaleLv)
     {

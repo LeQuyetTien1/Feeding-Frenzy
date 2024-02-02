@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 288403559}
   - component: {fileID: 288403558}
   m_Layer: 0
-  m_Name: PC Computer - Feeding Frenzy - Anglerfish_0
+  m_Name: Main2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 336899481}
   - component: {fileID: 336899480}
   m_Layer: 0
-  m_Name: PC Computer - Feeding Frenzy - Shark_0
+  m_Name: Main3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,6 +467,12 @@ MonoBehaviour:
   chooseButton: {fileID: 338118801}
   chooseImage: {fileID: 338118802}
   chooseText: {fileID: 1489455873}
+  otherMainButton1: {fileID: 2080839973}
+  otherMainImage1: {fileID: 2080839974}
+  otherMainText1: {fileID: 1215738146}
+  otherMainButton2: {fileID: 1091913770}
+  otherMainImage2: {fileID: 1091913771}
+  otherMainText2: {fileID: 1787364679}
 --- !u!114 &338118801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,8 +743,8 @@ RectTransform:
   - {fileID: 955098753}
   - {fileID: 663794249}
   - {fileID: 317668703}
-  - {fileID: 1410155401}
   - {fileID: 1091913768}
+  - {fileID: 1410155401}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -759,7 +765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9e19c2e91abcbc468c2930342b68ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gold: 1000
   goldText: {fileID: 881111264}
 --- !u!1 &423129497
 GameObject:
@@ -973,7 +978,7 @@ GameObject:
   - component: {fileID: 881111265}
   - component: {fileID: 881111264}
   m_Layer: 5
-  m_Name: PriceText
+  m_Name: GoldText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,7 +1037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 0
+  m_Text: x 200
 --- !u!222 &881111265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1186,7 +1191,7 @@ GameObject:
   - component: {fileID: 973640673}
   - component: {fileID: 973640672}
   m_Layer: 0
-  m_Name: PC Computer - Feeding Frenzy - Main Menu Interface_2
+  m_Name: BackGroundSheet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1369,7 +1374,7 @@ RectTransform:
   m_Children:
   - {fileID: 1787364678}
   m_Father: {fileID: 415768200}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1391,6 +1396,12 @@ MonoBehaviour:
   chooseButton: {fileID: 1091913770}
   chooseImage: {fileID: 1091913771}
   chooseText: {fileID: 1787364679}
+  otherMainButton1: {fileID: 2080839973}
+  otherMainImage1: {fileID: 2080839974}
+  otherMainText1: {fileID: 1215738146}
+  otherMainButton2: {fileID: 338118801}
+  otherMainImage2: {fileID: 338118802}
+  otherMainText2: {fileID: 1489455873}
 --- !u!114 &1091913770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,7 +1508,7 @@ GameObject:
   - component: {fileID: 1215738147}
   - component: {fileID: 1215738146}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Main2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1832,7 +1843,7 @@ RectTransform:
   - {fileID: 1326582504}
   - {fileID: 881111263}
   m_Father: {fileID: 415768200}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1851,7 +1862,7 @@ GameObject:
   - component: {fileID: 1489455874}
   - component: {fileID: 1489455873}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Main3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2146,7 +2157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60052d6696587648a279149ee79b7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shop: {fileID: 415768201}
   buyText: {fileID: 381473613}
   buyImage: {fileID: 1561582566}
   buyButton: {fileID: 1561582565}
@@ -2299,7 +2309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60052d6696587648a279149ee79b7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shop: {fileID: 415768201}
   buyText: {fileID: 113912953}
   buyImage: {fileID: 1618937343}
   buyButton: {fileID: 1618937342}
@@ -2401,7 +2410,7 @@ GameObject:
   - component: {fileID: 1787364680}
   - component: {fileID: 1787364679}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Main1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2480,7 +2489,7 @@ GameObject:
   - component: {fileID: 1906996253}
   - component: {fileID: 1906996252}
   m_Layer: 0
-  m_Name: Idle1
+  m_Name: Main1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2677,6 +2686,12 @@ MonoBehaviour:
   chooseButton: {fileID: 2080839973}
   chooseImage: {fileID: 2080839974}
   chooseText: {fileID: 1215738146}
+  otherMainButton1: {fileID: 338118801}
+  otherMainImage1: {fileID: 338118802}
+  otherMainText1: {fileID: 1489455873}
+  otherMainButton2: {fileID: 1091913770}
+  otherMainImage2: {fileID: 1091913771}
+  otherMainText2: {fileID: 1787364679}
 --- !u!114 &2080839973
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour
 {
     public static string previousScene;
-    public int gold;
+    public static int gold;
     public Text goldText;
    
     private void Start()

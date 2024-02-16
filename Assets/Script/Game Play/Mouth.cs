@@ -5,17 +5,7 @@ using UnityEngine;
 public class Mouth : MonoBehaviour
 {
     public PointSystem fish;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
     protected void OnTriggerEnter2D(Collider2D collision) //Body
     {
         if (collision.gameObject.layer != 10)
@@ -29,16 +19,8 @@ public class Mouth : MonoBehaviour
                 {
                     fish.lifePoint += enemy.rewardPoint;
                     fish.gold += enemy.gold;
-                   
                 }
             }
         }
-        
-        /*else
-        {
-            Destroy(collision.gameObject);
-            time = 0;
-            animator.SetBool("isEat", true);
-        }*/
     }
 }

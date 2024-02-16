@@ -8,13 +8,10 @@ public class GamePlayUI : MonoBehaviour
     public PointSystem pointSystem;
     public Text lifePointText;
     public Text goldText;
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        pointSystem= GameObject.FindGameObjectWithTag("Player").GetComponent<Main>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         lifePointText.text = "Score: "+ pointSystem.lifePoint.ToString();

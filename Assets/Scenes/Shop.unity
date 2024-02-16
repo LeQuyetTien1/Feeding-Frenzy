@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 113912952}
   - component: {fileID: 113912954}
   - component: {fileID: 113912953}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 317668703}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Main3Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 338118802}
   - component: {fileID: 338118801}
   - component: {fileID: 338118800}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Main3Choose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 381473612}
   - component: {fileID: 381473614}
   - component: {fileID: 381473613}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663794249}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Main2Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 750796169}
   - component: {fileID: 750796171}
   - component: {fileID: 750796170}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: PriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 200
+  m_Text: x 0
 --- !u!222 &881111265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 1083911574}
   - component: {fileID: 1083911576}
   - component: {fileID: 1083911575}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   - component: {fileID: 1091913771}
   - component: {fileID: 1091913770}
   - component: {fileID: 1091913769}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Main1Choose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ GameObject:
   - component: {fileID: 1215738145}
   - component: {fileID: 1215738147}
   - component: {fileID: 1215738146}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Main2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 1307923254}
   - component: {fileID: 1307923256}
   - component: {fileID: 1307923255}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1861,7 +1861,7 @@ GameObject:
   - component: {fileID: 1489455872}
   - component: {fileID: 1489455874}
   - component: {fileID: 1489455873}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Main3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1941,7 +1941,7 @@ GameObject:
   - component: {fileID: 1558579768}
   - component: {fileID: 1558579770}
   - component: {fileID: 1558579769}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: PriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 1561582566}
   - component: {fileID: 1561582565}
   - component: {fileID: 1561582568}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: BuyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2175,7 +2175,7 @@ GameObject:
   - component: {fileID: 1618937343}
   - component: {fileID: 1618937342}
   - component: {fileID: 1618937345}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: BuyButton (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2409,7 +2409,7 @@ GameObject:
   - component: {fileID: 1787364678}
   - component: {fileID: 1787364680}
   - component: {fileID: 1787364679}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Main1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,7 +2643,7 @@ GameObject:
   - component: {fileID: 2080839974}
   - component: {fileID: 2080839973}
   - component: {fileID: 2080839972}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Main2Choose
   m_TagString: Untagged
   m_Icon: {fileID: 0}

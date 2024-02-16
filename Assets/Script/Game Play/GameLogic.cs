@@ -12,9 +12,15 @@ public class GameLogic : MonoBehaviour
     public Main mainFish;
     public UnityEvent onGameOver;
     public UnityEvent onGameWin;
-    // Start is called before the first frame update
+    public Main main1, main2, main3;
+    public static bool status1=true, status2=false, status3=false;
     void Start()
     {
+        TestMainActive(main1, status1);
+        TestMainActive(main2, status2);
+        TestMainActive(main3, status3);
+        mainFish = GameObject.FindGameObjectWithTag("Player").GetComponent<Main>();
+
         onGameOver.AddListener(enemySpawnLeft.StopSpawn);
         onGameOver.AddListener(enemySpawnRight.StopSpawn);
         onGameOver.AddListener(ShowGameOver);
@@ -25,9 +31,8 @@ public class GameLogic : MonoBehaviour
         Shop.previousScene = "Level 1";
     }
 
-    // Update is called once per frame
     void Update()
-    {
+    {       
         if (mainFish == null)
         {
             onGameOver.Invoke();
@@ -36,7 +41,7 @@ public class GameLogic : MonoBehaviour
         {
             mainFish.greenBar.fillAmount = 1;
             onGameWin.Invoke();
-        }
+        }       
     }
     public void ShowGameOver()
     {
@@ -46,5 +51,20 @@ public class GameLogic : MonoBehaviour
     {
         gameWin.SetActive(true);
         mainFish.isWinStatus = true;
+    }
+    public void TestMainActive(Main main, bool status)
+    {
+        if (main != null)
+        {
+            if (status == true)
+            {
+                main.gameObject.SetActive(true);
+            }
+            else
+            {
+                main.gameObject.SetActive(false);
+            }
+        }
+        
     }
 }

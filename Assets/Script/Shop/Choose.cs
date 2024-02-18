@@ -17,10 +17,23 @@ public class Choose : MonoBehaviour
     public Image otherMainImage2;
     public Text otherMainText2;
 
+    public Button buyButton;
     private void Start()
     {
-        chooseImage.color = Color.gray;
-        chooseButton.enabled = false;
+        /*chooseImage.color = Color.gray;
+        chooseButton.enabled = false;*/
+        if (gameObject.layer == 12)
+        {
+            IsChoose(GameLogic.status2);
+        }
+        if (gameObject.layer == 13)
+        {
+            IsChoose(GameLogic.status3);
+        }
+        if (gameObject.layer == 11)
+        {
+            IsChoose(GameLogic.status1);
+        }
     }
     public void OnClickChoose()
     {
@@ -51,9 +64,32 @@ public class Choose : MonoBehaviour
             GameLogic.status1 = status1;
             GameLogic.status2 = status2;
             GameLogic.status3 = status3;
-            Debug.Log("status main 1 " + GameLogic.status1);
+            /*Debug.Log("status main 1 " + GameLogic.status1);
             Debug.Log("status main 2 " + GameLogic.status2);
-            Debug.Log("status main 3 " + GameLogic.status3);
+            Debug.Log("status main 3 " + GameLogic.status3);*/
+        }
+    }
+    void IsChoose(bool status)
+    {
+        if(status==true)
+        {
+            chooseText.text = "Selected";
+            chooseImage.color = Color.gray;
+            chooseButton.enabled = false;
+        }
+        else
+        {
+            chooseText.text="Select";
+            if (buyButton!=null&&buyButton.enabled == true)
+            {
+                chooseImage.color = Color.gray;
+                chooseButton.enabled = false;
+            }
+            else
+            {
+                chooseImage.color = Color.white;
+                chooseButton.enabled = true;
+            }
         }
     }
 }

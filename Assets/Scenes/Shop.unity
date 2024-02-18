@@ -473,6 +473,7 @@ MonoBehaviour:
   otherMainButton2: {fileID: 1091913770}
   otherMainImage2: {fileID: 1091913771}
   otherMainText2: {fileID: 1787364679}
+  buyButton: {fileID: 1618937342}
 --- !u!114 &338118801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,6 +1403,7 @@ MonoBehaviour:
   otherMainButton2: {fileID: 338118801}
   otherMainImage2: {fileID: 338118802}
   otherMainText2: {fileID: 1489455873}
+  buyButton: {fileID: 0}
 --- !u!114 &1091913770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2692,6 +2694,7 @@ MonoBehaviour:
   otherMainButton2: {fileID: 1091913770}
   otherMainImage2: {fileID: 1091913771}
   otherMainText2: {fileID: 1787364679}
+  buyButton: {fileID: 1561582565}
 --- !u!114 &2080839973
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,9 +16,9 @@ public class GameLogic : MonoBehaviour
     public static bool status1=true, status2=false, status3=false;
     void Start()
     {
-        TestMainActive(main1, status1);
+        /*TestMainActive(main1, status1);
         TestMainActive(main2, status2);
-        TestMainActive(main3, status3);
+        TestMainActive(main3, status3);*/
         mainFish = GameObject.FindGameObjectWithTag("Player").GetComponent<Main>();
 
         onGameOver.AddListener(enemySpawnLeft.StopSpawn);

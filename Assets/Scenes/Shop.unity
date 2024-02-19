@@ -473,7 +473,7 @@ MonoBehaviour:
   otherMainButton2: {fileID: 1091913770}
   otherMainImage2: {fileID: 1091913771}
   otherMainText2: {fileID: 1787364679}
-  buyButton: {fileID: 1618937342}
+  buyButton: {fileID: 1561582565}
 --- !u!114 &338118801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 1561582565}
   - component: {fileID: 1561582568}
   m_Layer: 12
-  m_Name: BuyButton
+  m_Name: BuyButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2178,7 +2178,7 @@ GameObject:
   - component: {fileID: 1618937342}
   - component: {fileID: 1618937345}
   m_Layer: 13
-  m_Name: BuyButton (1)
+  m_Name: BuyButton3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

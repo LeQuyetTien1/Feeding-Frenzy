@@ -351,8 +351,8 @@ TextureImporter:
       name: Swim12
       rect:
         serializedVersion: 2
-        x: 4245
-        y: 148
+        x: 4244
+        y: 149
         width: 362
         height: 129
       alignment: 0
@@ -410,6 +410,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Eat1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fcaa53ba89da349b988d4429bbfc05
+      internalID: 2078611904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eat2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dfba279d5051b45a923a0367e5a88b
+      internalID: 390200517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eat3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee83811ab25fb640b58ff83ee1fa9e0
+      internalID: 1038977394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eat4
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e75ebff66136c418f0fa8cb5f154d8
+      internalID: 426789438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eat5
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9988e02b9a6c9314aa08c7758ad0ee45
+      internalID: 311137526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eat6
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 288
+        width: 368
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b651c9938d69cb429431e9383aed789
+      internalID: 100277212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -421,6 +547,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Eat1: 2078611904
+      Eat2: 390200517
+      Eat3: 1038977394
+      Eat4: 426789438
+      Eat5: 311137526
+      Eat6: 100277212
       Swim1: -842067305
       Swim10: 2146887605
       Swim11: 997659151

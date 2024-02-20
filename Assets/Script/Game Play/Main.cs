@@ -14,13 +14,10 @@ public class Main : PointSystem
     public Image greenBar;
     public bool isWinStatus=false;
     private Vector3 currentMouse;
-    // Start is called before the first frame update
     void Start()
     {
         currentMouse = Input.mousePosition;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (currentMouse.x < Input.mousePosition.x)

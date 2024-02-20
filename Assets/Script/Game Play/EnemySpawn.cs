@@ -10,13 +10,6 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] GameObject enemyFish;
     [SerializeField] private float angle;
     private float time=0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(time < timeSpawn)

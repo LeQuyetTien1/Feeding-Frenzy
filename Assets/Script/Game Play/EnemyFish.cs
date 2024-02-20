@@ -20,15 +20,4 @@ public class EnemyFish : PointSystem
             animator.SetBool("isEat", false);
         }
     }
-    /*private void OnTriggerEnter2D(Collider2D collision) //Radar
-    {
-        var main = collision.gameObject.GetComponent<Main>();
-        if (main != null && main.lifePoint >= lifePoint)
-        {
-            speed = 3;
-            var scale = transform.localScale;
-            transform.localScale = new Vector3(-scale.x, scale.y, scale.z);
-            direction *= -1;
-        }
-    }*/
 }

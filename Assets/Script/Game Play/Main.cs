@@ -14,6 +14,7 @@ public class Main : PointSystem
     public Image greenBar;
     public bool isWinStatus=false;
     private Vector3 currentMouse;
+    public new AudioSource audio;
     void Start()
     {
         currentMouse = Input.mousePosition;
@@ -30,7 +31,8 @@ public class Main : PointSystem
             transform.rotation = Quaternion.Euler(0, -180, 0);
             currentMouse= Input.mousePosition;
         }
-        if (Input.mousePosition.x < 1920 && Input.mousePosition.y < 1080 && Input.mousePosition.x > 0 && Input.mousePosition.y > 0 && isWinStatus==false)
+        if (Input.mousePosition.x < 1920 && Input.mousePosition.y < 1080 && 
+            Input.mousePosition.x > 0 && Input.mousePosition.y > 0 && isWinStatus==false)
         {
             var worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             worldPoint.z = 0;
@@ -54,5 +56,10 @@ public class Main : PointSystem
         {
             transform.localScale = scaleLv;
         }
+    }
+    public override void EatAnimation()
+    {
+        base.EatAnimation();
+        audio.Play();
     }
 }

@@ -9,8 +9,8 @@ public class PointSystem : MonoBehaviour
     public int rewardPoint;
     public int gold;
     public Animator animator;
-    public float time = 0;   
-    public void EatAnimation()
+    public float time = 0;
+    public virtual void EatAnimation()
     {
         time = 0;
         animator.SetBool("isEat", true);

@@ -46,9 +46,6 @@ public class Choose : MonoBehaviour
         ChangeStatus(12, false, true, false);
         ChangeStatus(13, false, false, true);
 
-        Debug.Log("Main1: " + GameLogic.status1);
-        Debug.Log("Main2: " + GameLogic.status2);
-        Debug.Log("Main3: " + GameLogic.status3);
     }
     public void ChangeButton(Button chooseButton, Image chooseImage, Text chooseText)
     {

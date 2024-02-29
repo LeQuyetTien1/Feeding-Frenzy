@@ -9,6 +9,7 @@ public class GameLogic : MonoBehaviour
     public EnemySpawn enemySpawnRight;
     public GameObject gameOver;
     public GameObject gameWin;
+    public BackGroundAudio backGround;
     public Main mainFish;
     public UnityEvent onGameOver;
     public UnityEvent onGameWin;
@@ -24,15 +25,16 @@ public class GameLogic : MonoBehaviour
         onGameOver.AddListener(enemySpawnLeft.StopSpawn);
         onGameOver.AddListener(enemySpawnRight.StopSpawn);
         onGameOver.AddListener(ShowGameOver);
+        onGameOver.AddListener(backGround.StopMusic);
 
         onGameWin.AddListener(enemySpawnLeft.StopSpawn);
         onGameWin.AddListener(enemySpawnRight.StopSpawn);
         onGameWin.AddListener(ShowGameWin);
-        Shop.previousScene = "Level 1";
+        onGameWin.AddListener(backGround.StopMusic);
+        Shop.previousScene = "Game Play";
     }
-
     void Update()
-    {       
+    {
         if (mainFish == null)
         {
             onGameOver.Invoke();
@@ -41,7 +43,7 @@ public class GameLogic : MonoBehaviour
         {
             mainFish.greenBar.fillAmount = 1;
             onGameWin.Invoke();
-        }       
+        }
     }
     public void ShowGameOver()
     {
@@ -65,6 +67,5 @@ public class GameLogic : MonoBehaviour
                 main.gameObject.SetActive(false);
             }
         }
-        
     }
 }

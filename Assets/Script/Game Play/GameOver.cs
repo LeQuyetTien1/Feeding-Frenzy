@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    
     public void PlayNewGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
